@@ -12,6 +12,7 @@
     <button id="loginButton">Login</button>
 </body>
 <script>
+	const xhr = new XMLHttpRequest();
     document.getElementById("loginButton").addEventListener("click", function() {
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
